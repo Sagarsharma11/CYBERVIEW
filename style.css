@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    overflow: hidden;
+    background-color: white;
+    margin-top: -5px !important;
+}
+.navbar ul{
+    margin-right: 100px;
+} 
+.navbar  ul li{
+    list-style-type: none;
+    float: left;
+    margin-right: 50px;
+    font-weight: bold;
+    display: block;
+}
+.navbar ul .enquiry-btn{
+    background-color: #E6F7FF;
+    color: #003A8C ;
+    border-radius: 20px;
+    margin-top: -8px;
+}
+.banner{
+    background: rgb(0,65,131);
+    background: linear-gradient(90deg, rgba(0,65,131,1) 22%, rgba(0,88,141,1) 52%, rgba(1,160,173,1) 78%, rgba(0,195,189,1) 86%, rgba(1,250,214,1) 95%);
+    height: 500px;
+}
+.sticky {
+    position: fixed;
+    top: -5;
+    width: 100%;
+}
+.banner .banner-content h2 , h4,p{
+    color: white ;
+}
+.banner .banner-content .content{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.banner .banner-content .content button a{
+    color: #20292F;
+    text-decoration: none;
+}
+.banner .banner-content .content button{
+    border: none;
+    outline: none;
+    background-color: white;
+    border-radius: 50px;
+}
